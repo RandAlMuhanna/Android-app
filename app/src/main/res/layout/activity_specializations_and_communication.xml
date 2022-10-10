@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".specializations_and_communication">
+
+    <ImageButton
+        android:id="@+id/spe"
+        android:layout_width="117dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/comm"
+        android:layout_marginStart="24dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_domain_black_24dp"
+        tools:ignore="RtlCompat,VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/comm"
+        android:layout_width="125dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="159dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_phone_black_24dp"
+        tools:ignore="RtlCompat,VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spe"
+        android:layout_marginStart="47dp"
+        android:text="Colleges"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/spe"
+        android:layout_marginEnd="24dp"
+        android:text="communication"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>

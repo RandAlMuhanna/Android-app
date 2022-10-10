@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SEU</string>
+    <string name="description_txt" tools:ignore="StringEscaping">
+
+It is a leading electronic university,
+        that contribute in building the economy and society knowledge to convey the Kingdom's cultural message. The electronic university has the flexibility and quality output to the requirement needs of the labor market.
+
+    </string>
+    <string name="description_text2">It is a governmental electronic university, depends on distance educational method by using advanced technologies. The university provides an excellent and qualified modern education for all society members. According to the highest quality standards and best international practices. The university also, contribute to increase the efficiency of higher education institutions production. Also it, enhances the international presence of the Kingdom through the publication of Arabic and science and knowledge.
+</string>
+    <string name="description_text7">
+    "
+        1) To represent the nation and to compete
+            other international universities.
+        2) To present a flexible and distinguished
+            example of higher education, support
+            self-learning skills, and to offer knowledge.
+        3) To offer higher education based on
+            the best applications and technologies of
+            e-learning,to transfer and localize
+            knowledge.
+        4) To support the mission and the concept of
+            lifelong e-learning and distance education
+            for all members of Saudi society.</string>
+"
+
+</resources>
